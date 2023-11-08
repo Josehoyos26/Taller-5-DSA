@@ -22,7 +22,7 @@ jobs:
       - checkout:
           path: ~/project/
       - node/install:
-          node-version: '20.9'
+          node-version: '21.1'
       - run: node --version
       - run: npm i -g @railway/cli
       - run:
